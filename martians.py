@@ -24,4 +24,4 @@ while game:
         game = False
     else:
         print("wrong! Tentacles changed position of boxes.Try again")
-        
+        random.shuffle(killometres)
