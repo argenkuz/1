@@ -14,5 +14,7 @@ killometres = [711,0,0,0,1,1,0]
 game = True
 while game:
     print(killometres)
-
+    summ = 0
+    for _ in range(3):
+        summ += killometres[int_validation("select killometr: ") - 1]
 
