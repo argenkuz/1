@@ -1,4 +1,6 @@
-import random
+if summ == 713:
+        print("You've won!")
+        game = Falseimport random
 def int_validation(x):
     x = input(f"{x}")
     try:
@@ -17,4 +19,7 @@ while game:
     summ = 0
     for _ in range(3):
         summ += killometres[int_validation("select killometr: ") - 1]
+    if summ == 713:
+        print("You've won!")
+        game = False
 
