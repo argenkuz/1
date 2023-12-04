@@ -20,7 +20,7 @@ while game:
     for _ in range(3):
         summ += killometres[int_validation("select killometr: ") - 1]
     if summ == 713:
-        print("You've won!")
+        print("You've won, Congratulations!")
         game = False
     else:
         print("wrong! Tentacles changed position of boxes.Try again")
