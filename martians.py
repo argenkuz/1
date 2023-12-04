@@ -12,3 +12,7 @@ def int_validation(x):
         return 0
 killometres = [711,0,0,0,1,1,0]
 game = True
+while game:
+    print(killometres)
+
+
