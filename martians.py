@@ -22,4 +22,6 @@ while game:
     if summ == 713:
         print("You've won!")
         game = False
-
+    else:
+        print("wrong! Tentacles changed position of boxes.Try again")
+        
